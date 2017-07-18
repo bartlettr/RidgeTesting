@@ -58,7 +58,7 @@ var overlay = L.d3SvgOverlay(function(sel, proj) {
 
 function getStroke(data) {
     if (data.properties.ObjectiveL === 'Jumping off trench') {
-        return 'orange';
+        return 'darkorange';
     } else if(data.properties.ObjectiveL) {
         return data.properties.ObjectiveL.toLowerCase();
     }
